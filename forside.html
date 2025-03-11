@@ -4,9 +4,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css"> 
 </head>
 <body>
-    
+    <header class="menu">
+        <h1 class="logo-menu">SUSPIS</h1>
+        <nav class="navigation_menu">
+            <ul>
+                <li><a href="forside.html">Forside</a></li>
+                <li><a href="restauranter.html">Restauranter</a></li>
+                <li><a href="tilmeld.html">Tilmeld</a></li>
+            </ul>
+        </nav>
+        <div class="burger-icon" id="burger-icon">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <script src="script.js"></script>
+    </header>
+
+    <main>
+        <!-- BANNER - SECTION -->
+        <img src="assets/forside.webp" alt="forside">
+        <h1 class="headline">Restauranter i Købehavn <br> som tilbyder studierabat</h1>
+
+        <!-- LIVET SOM STUDERENDE - SECTION -->
+        <section class="grid_3-5">
+            <div>
+                <h3>Livet som studerende</h3>
+                <img src="assets/fattig.webp" alt="fattig" class="mobile">
+                <p>Livet som studerende kan være hårdt. Mange afleveringer og utallige timer på studiet. Derefter venter et deltidsarbejde, for at få skrabet penge sammen til mad og husleje.
+                <br><br>
+                Derfor har vi lavet en samling af restuaranter som tilbyder studierabat, så du kan forkæle dig selv til en fornufting pris.</p>
+                <a href="restauranter.html" class="button"> Se Restauranter</a>
+            </div>
+            <div>
+                <img src="assets/fattig.webp" alt="fattig" class="desktop">
+            </div>
+
+        </section>
+
+        <!-- Suspis for virksomheder Section -->
+        <section class="grid_5-3">
+            <div>
+                <img src="assets/virksomheder.webp" alt="virksomheder" class="desktop">
+            </div>
+            <div>
+                <h3>SUSPIS for virksomheder</h3>
+                <img src="assets/virksomheder.webp" alt="virksomheder" class="mobile">
+                <p>Er du en virksomhed som allerede tilbyder studierabat? Eller ønsker at starte et studierabat tilbud?
+                <br><br>
+                Klik på knappen under og udfyld formularen. Vi opretter dig på “Restaurant”-siden så studerende nemmere kan finde din restaurant. </p>
+                <div class="button_container">
+                <a href="tilmeld.html" class="button" id="end"> Tilmeld</a>
+            </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <h1 class="logo-footer">SUSPIS</h1>
+        <nav class="navigation_footer">
+            <ul>
+                <li><a href="forside.html">Forside</a></li>
+                <li><a href="restauranter.html">Restauranter</a></li>
+                <li><a href="tilmeld.html">Tilmeld</a></li>
+            </ul>
+        </nav>
+    </footer>
 </body>
 </html>
 

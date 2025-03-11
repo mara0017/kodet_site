@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <header class="menu">
+        <h1 class="logo-menu">SUSPIS</h1>
+        <nav class="navigation_menu">
+            <ul>
+                <li><a href="forside.html">Forside</a></li>
+                <li><a href="restauranter.html">Restauranter</a></li>
+                <li><a href="tilmeld.html">Tilmeld</a></li>
+            </ul>
+        </nav>
+        <div class="burger-icon" id="burger-icon">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <script src="script.js"></script>
+    </header>
+
+    <main>
+        <!-- SUPIS FOR VIRKSOMHEDER - SECTION -->
+        <section class="grid_3-5">
+            <div>
+                <h3>SUSPIS for virksomheder</h3>
+                <img src="assets/virksomheder.webp" alt="virksomheder" class="mobile">
+                <p>Er du en virksomhed som allerede tilbyder studierabat? Eller ønsker at starte et studierabat tilbud?
+                <br><br>
+                Udfyld formularen nedenfor og Vi opretter dig på “Restaurant”-siden så studerende nemmere kan finde din restaurant. </p>
+            </div>
+            <div>
+                <img src="assets/virksomheder.webp" alt="virksomheder" class="desktop">
+            </div>
+
+        </section>
+
+        <!-- CONTACT FORM - SECTION -->
+         <section>
+            <h1 class="h1_tilmeld">Få din restaurant <br> oprettet på SUSPIS</h1>
+            <section class="contact_background">
+                <form action="#" method="post" class="contact_form">
+                    <section class="grid_1-1">
+                    <!-- NAVN -->
+                     <div>
+                    <div class="indtast">
+                        <input type="text" id="navn" placeholder="Navn" required>
+                    <!-- EMAIL -->
+                    <div class="indtast">
+                        <input type="text" id="email" placeholder="Email" required>
+                    </div>
+                    </div>
+                    <div>
+                    <!-- TELEFON -->
+                    <div class="indtast">
+                        <input type="text" id="telefon" placeholder="Telefonnummer" required>
+                    </div>
+                    <!-- RESTURANT NAVN -->
+                    <div class="indtast">
+                        <input type="text" id="resturant" placeholder="Resturant Navn" required>
+                    </div>
+                    </div>
+                    </section>
+                    <!-- TILBUD -->
+                    <div class="indtast">
+                        <textarea type="text" id="tilbud" placeholder="Beskriv dit studierabat tilbud" required></textarea>
+                    </div>
+                    <button type="submit" class="send-button">Send fomular</button>
+                </form>
+            </section>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <h1 class="logo-footer">SUSPIS</h1>
+        <nav class="navigation_footer">
+            <ul>
+                <li><a href="forside.html">Forside</a></li>
+                <li><a href="restauranter.html">Restauranter</a></li>
+                <li><a href="tilmeld.html">Tilmeld</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
+
