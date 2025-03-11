@@ -83,8 +83,55 @@ p{
 }
 
 .indtast {
-    margin-bottom: 15px;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    padding: 0 20px;
+    max-width: 80%;
+}
+
+#navn, #email, #telefon, #resturant{
+    font-size: 1rem;
+    border: black;
+    border-radius: 5px;
+    border: solid;
+    padding: 8px 20px;
+    background-color: white;
+    max-width: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#tilbud {
+    font-size: 1rem;
+    border: black;
+    border-radius: 5px;
+    border: solid;
+    background-color: white;
+    max-width: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+    align-content: center;
+}
+
+.send_button {
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: #ff7a00;
+    color: #fff;
+    text-decoration: none;
+    border: solid;
+    border-radius: 10px;
+    border-color: black;
+    font-size: 1.2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
     margin-top: 15px;
+    max-width: 30%;
+    align-content: center;
+}
+
+.send_button :hover{
+
 }
 
 /* MENU */
@@ -259,7 +306,8 @@ p{
     }
 
 .h1_tilmeld {
-    margin-top: 30px;
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
 
     h3{
