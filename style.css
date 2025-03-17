@@ -17,11 +17,6 @@ img{
     margin-bottom: 20px;
 }
 
-#img_desktop {
-    margin-top: 60px;
-    margin-bottom: -30px;
-}
-
 .button {
     display: inline-block;
     padding: 10px 30px;
@@ -190,7 +185,6 @@ p{
 
     .logo-menu {
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-style: bold;
         -webkit-text-stroke-color: black;
         -webkit-text-stroke-width: 2px;
         font-size: 3rem;
@@ -230,7 +224,6 @@ p{
 
     .logo-footer {
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-style: bold;
         -webkit-text-stroke-color: black;
         -webkit-text-stroke-width: 2px;
         font-size: 3rem;
@@ -357,8 +350,12 @@ p{
     .mobile {
         display: none;
     }
-    .desktop {
+
+
+    .desktop_resturanter {
         display: show;
+        margin-top: 60px;
+        margin-bottom: -30px;
     }
 
 /* TEXT */
