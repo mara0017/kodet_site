@@ -19,6 +19,7 @@ img{
 
 #img_desktop {
     margin-top: 60px;
+    margin-bottom: -30px;
 }
 
 .button {
@@ -34,7 +35,39 @@ img{
     margin-top: 15px;
 }
 
+.button_form {
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: #ff7a00;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    margin-right: 40%;
+    margin-left: 40%;
+}
+
 /* TEXT */
+
+.p_form {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.h1_form{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3rem;
+    margin-top: 5%;
+}
 
 h1{
     text-align: center;
@@ -80,37 +113,28 @@ p{
 .contact_form {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .indtast {
     margin-bottom: 3%;
     margin-top: 3%;
-    padding: 0 20px;
-    max-width: 80%;
+    padding: 0px;
+
 }
 
 #navn, #email, #telefon, #resturant{
-    font-size: 1rem;
+    font-size: 1.2rem;
     border: black;
     border-radius: 5px;
     border: solid;
     padding: 8px 20px;
     background-color: white;
     max-width: 100%;
-    margin-left: 10%;
-    margin-right: 10%;
-}
+    justify-content: space-around;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
-#tilbud {
-    font-size: 1rem;
-    border: black;
-    border-radius: 5px;
-    border: solid;
-    background-color: white;
-    max-width: 100%;
-    margin-left: 5%;
-    margin-right: 5%;
-    align-content: center;
+
 }
 
 .send_button {
@@ -118,7 +142,6 @@ p{
     padding: 10px 30px;
     background-color: #ff7a00;
     color: #fff;
-    text-decoration: none;
     border: solid;
     border-radius: 10px;
     border-color: black;
@@ -126,13 +149,9 @@ p{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
     margin-top: 15px;
-    max-width: 30%;
-    align-content: center;
+    margin-bottom: 15px;
 }
 
-.send_button :hover{
-
-}
 
 /* MENU */
     .menu {
@@ -243,6 +262,45 @@ p{
     display: none;
 }
 
+.h1_tilmeld {
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+#navn {
+    margin-top: 20px;
+}
+
+
+.button_form {
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: #ff7a00;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    margin-right: 30%;
+    margin-left: 30%;
+}
+
+#tilbud {
+    font-size: 1.2rem;
+    border: red;
+    border-radius: 5px;
+    border: solid;
+    background-color: white;
+    padding: 12px 20px;
+    resize: vertical;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 .navigation_menu.active {
     display: block;
     position: absolute;
@@ -278,7 +336,12 @@ p{
 .h3_resturanter {
     font-size: 2.3rem;
 }
-
+.h1_form{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.75rem;
+    margin-top: 10%;
+}
 
 }
 
@@ -308,6 +371,21 @@ p{
 .h1_tilmeld {
     margin-top: 40px;
     margin-bottom: 20px;
+}
+
+#tilbud {
+    font-size: 1.2rem;
+    border: black;
+    border-radius: 5px;
+    border: solid;
+    background-color: white;
+    max-width: 100%;
+    margin: auto;
+    padding: 12px 20px;
+    height: 150px; 
+    width: 546px;
+    resize: vertical;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
     h3{
